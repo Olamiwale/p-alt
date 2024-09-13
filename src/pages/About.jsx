@@ -9,8 +9,13 @@ export default function About() {
      
       
           <div className=' md:w-full w-3/4'> 
+             
+             <div className='flex flex-col items-center'>
+
+            
            <p className="font-bold text-3xl">About</p>
-           <p className="py-4 font-semibold text-xl">Who I Am?</p>
+           <p className="py-4 font-semibold text-xl">Who I Am?</p> 
+           </div>
 
           <p className="tracking-wider mt-10">
             I'm a frontend developer, currently expanding my skills to include

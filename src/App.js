@@ -6,6 +6,7 @@ import Skill from './pages/Skill'
 import Project from './pages/Project'
 import Contact from './pages/Contact'
 
+
 export default function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function App() {
       <Skill />
       <Project />
       <Contact />
+
       </div>
     
     </div>

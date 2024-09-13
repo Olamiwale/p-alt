@@ -5,7 +5,7 @@ export default function Project() {
   return (
     <div className='flex justify-center mt-40'>
       <div className='w-3/4'>
-        <p className='font-bold text-3xl pb-5'>Project</p>
+        <p className='font-bold text-3xl pb-5 flex justify-center'>Project</p>
 
         <div className='flex flex-wrap gap-5 justify-center items-center p-5'>
 
