@@ -12,8 +12,8 @@ export default function Project() {
 
           
              {projectData.map((item, id)=>(
-            <div key={item.id}>
-            <img src={item.img} className='w-[250px] h-[200px]' alt={item.name} /> 
+            <div className='flex flex-col items-center' key={item.id}>
+            <img src={item.img} className='w-[250px] h-[200px] shadow-lg shadow-slate-800' alt={item.name} /> 
             <p className='py-2 font-semibold'>{item.name}</p> 
             </div>
           ))}

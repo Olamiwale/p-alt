@@ -46,7 +46,7 @@ export const skillLogo = [
       name: 'Html'  
     },
     {
-      url:'./asset/image.png',
+      url:'./asset/next.png',
       name: 'Nextjs'  
     },
     {

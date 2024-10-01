@@ -15,11 +15,11 @@ export default function Skill() {
         <p className='font-semibold text-xl pb-10'>Technical Expertise & Core Skills</p>
          </div>
 
-        <div className='mt-5 grid grid-cols-4 md:grid-cols-5'>
+        <div className='mt-5 grid grid-cols-4 md:grid-cols-7'>
           {skillLogo.map((item, id)=>(
-            <div className='flex flex-col items-center justify-center p-5' key={item.id}>
+            <div className='flex flex-col items-center justify-center p-5 shadow-lg bg-slate-200 shadow-slate-500 m-4' key={item.id}>
             <img src={item.url} className='w-3/5 md:1/7' alt={item.name} /> 
-            <p className='py-2 font-semibold'>{item.name}</p> 
+            <p className='py-2 font-semibold text-[8px]'>{item.name}</p> 
             </div>
           ))}
         </div>

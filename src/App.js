@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Skill from './pages/Skill'
 import Project from './pages/Project'
 import Contact from './pages/Contact'
+import Footer from './components/Footer'
 
 
 export default function App() {
@@ -19,6 +20,8 @@ export default function App() {
       <Contact />
 
       </div>
+
+      <Footer />
     
     </div>
   )
